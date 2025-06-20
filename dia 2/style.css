@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;
+    color: aliceblue;
+    font-family: monospace;
+}
+
+p {
+    font-size: medium;
+    text-align: justify;
+    text-align: left;
+    line-height: 20px;
+    /* tamanho da altura de cada linha */
+    letter-spacing: 2px;
+    /* tamanho do espaço entre cada letra */
+    word-spacing: 1px;
+    /* tamanho do espaço entre cada palavra */
+    text-indent: 30px;
+    /* tamanho da margem da primeira linha do texto */
+    padding: 15px;
+}
+
+#biografia {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    display: flex;
+    margin-left: auto;
+}
+#imagem{
+display: block;
+}
