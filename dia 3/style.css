@@ -1,0 +1,58 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: aliceblue;
+    font-family: monospace;
+}
+
+p {
+    font-size: medium;
+    text-align: justify;
+    text-align: left;
+    line-height: 20px;
+    /* tamanho da altura de cada linha */
+    letter-spacing: 2px;
+    /* tamanho do espaço entre cada letra */
+    word-spacing: 1px;
+    /* tamanho do espaço entre cada palavra */
+    text-indent: 30px;
+    /* tamanho da margem da primeira linha do texto */
+    padding: 15px;
+}
+
+#biografia {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    display: flex;
+    margin-left: auto;
+}
+#imagem{
+display: block;
+
+}
+.banner{
+    text-align: left;
+    border-color: #ffffff;
+    background-size: contain;
+    border-radius: 5%;
+    display: flexbox;
+    border: 2px solid rgb(255, 255, 255);
+  
+}
+
+.banner:hover{
+    zoom: 125%;
+    opacity: 0.8;
+    transition: 0.3s;
+    background-color: #a71818 ;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    color: aqua;
+}
