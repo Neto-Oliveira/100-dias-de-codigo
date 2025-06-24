@@ -1,0 +1,24 @@
+ :root {
+      --cor-fundo: #000000; /* preto */
+      --cor-azul: #14213D; /* azul */
+      --cor-amarela:#FCA311; /*amarelo*/
+      --cor-cinza:#E5E5E5; /*cinza*/
+      --cor-branca:#FFFFFF; /*cinza*/
+    }
+
+*{
+    background-color: var(--cor-fundo);
+}
+
+.metal-mania-regular {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    font-family: "Metal Mania";
+    text-align: center;
+    letter-spacing: 10px;
+    color: var(--cor-amarela);
+}
